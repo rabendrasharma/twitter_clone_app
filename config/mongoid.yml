@@ -30,7 +30,7 @@ test:
 production:
   clients:
     default:
-      uri: &lt;%= ENV['MONGODB_URI'] %&gt;
+      uri: <%= ENV['MONGODB_URI'] %>;
     options:
       skip_version_check: true
     safe: true
