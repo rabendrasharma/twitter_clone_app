@@ -33,3 +33,4 @@ production:
       database: twitter_clone_app_production
       hosts: 
         - <%= ENV['MONGODB_URI'] %>
+      options:
