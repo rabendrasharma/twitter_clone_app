@@ -32,4 +32,4 @@ production:
     default:
       database: twitter_clone_app_production
       hosts: 
-        - <%= ENV['MONGOLAB_URI'] %>
+        - <%= ENV['MONGODB_URI'] %>
