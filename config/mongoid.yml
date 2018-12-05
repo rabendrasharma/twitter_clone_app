@@ -27,16 +27,6 @@ test:
           mode: :primary
         max_pool_size: 1
 
-# production:
-#   sessions:
-#     default:
-#       database: heroku_bcmslb7b
-#         hosts:
-#           - ds131313.mlab.com:31313
-#       options:
-
-#         mongodb://heroku_bcmslb7b:deumc0ad7fjuhdplushsdhf11m@ds131313.mlab.com:31313/heroku_bcmslb7b
-
 production:
   clients:
     default:
