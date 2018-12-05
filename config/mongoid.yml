@@ -28,7 +28,7 @@ test:
         max_pool_size: 1
 
 production:
-  uri: <%= ENV['MONGODB_URI'] %>
-  max_retries_on_connection_failure: 20
-  persist_in_safe_mode: true
-  skip_version_check: true  
+  sessions:
+    default:
+      uri: <%= ENV['MONGODB_URI'] %>
+      options:
