@@ -30,4 +30,5 @@ test:
 production:
   clients:
     default:
+      database: twitter_clone_app_production
       uri: <%= ENV['MONGOLAB_URI'] %>
