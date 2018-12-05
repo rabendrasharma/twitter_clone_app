@@ -30,7 +30,7 @@ test:
 production:
   clients:
     default:
-      database: twitter_clone_app_production
-      hosts: 
-        - <%= ENV['MONGODB_URI'] %>
-      options:
+      uri: &lt;%= ENV['MONGODB_URI'] %&gt;
+    options:
+      skip_version_check: true
+    safe: true
