@@ -30,5 +30,12 @@ test:
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGODB_URI'] %>
-      options:
+      database: heroku_bcmslb7b
+        hosts:
+          - ds131313.mlab.com:31313
+        username: heroku_bcmslb7b
+        password: deumc0ad7fjuhdplushsdhf11m
+        options:
+ 
+
+        # mongodb://heroku_bcmslb7b:deumc0ad7fjuhdplushsdhf11m@ds131313.mlab.com:31313/heroku_bcmslb7b
